@@ -1,0 +1,11 @@
+&inputpp
+   outdir = './'
+   prefix = 'GaAs'
+   seedname = 'GaAs'
+   write_mmn = .true.
+   write_amn = .false.
+   write_spn = .false.
+   write_unk = .true.
+   reduce_unk = .true.
+   reduce_unk_factor = 2
+/

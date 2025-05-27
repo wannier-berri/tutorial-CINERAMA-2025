@@ -1,0 +1,6 @@
+&bands
+  prefix = 'GaAs'
+  outdir = './'
+  lsym = .false.  
+  filband = 'GaAs.bands_pw.dat'
+/

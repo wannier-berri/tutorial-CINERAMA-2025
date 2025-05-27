@@ -27,6 +27,7 @@ Please install Jupyter Notebook, WanierBerri and also pythtb
 pip install  --upgrade  pythtb jupyterlab matplotlib wannierberri[all]
 ```
 
+also, for visualisation of Wannier functions, you may download `VESTA <https://jp-minerals.org/vesta/en/download.html>`_ or `XCRYSDEN <http://www.xcrysden.org/>`_. (or nay other code that accepts xsf files)
 
 ## In more words:
 
