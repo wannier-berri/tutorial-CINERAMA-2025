@@ -19,9 +19,7 @@ shortly before the session. So far the students are asked only to prepare their 
 
 ## Briefly: 
 
-TODO : check dependencies
-
-Please install Jupyter Notebook, WanierBerri and also pythtb
+Please install Jupyter Notebook, WanierBerri (v1.3.0), irrep (v2.1.2) and also pythtb 
 
 ```
 pip install  --upgrade  pythtb jupyterlab matplotlib wannierberri[all]
@@ -30,11 +28,6 @@ pip install  --upgrade  pythtb jupyterlab matplotlib wannierberri[all]
 also, for visualisation of Wannier functions, you may download `VESTA <https://jp-minerals.org/vesta/en/download.html>`_ or `XCRYSDEN <http://www.xcrysden.org/>`_. (or nay other code that accepts xsf files)
 
 ## In more words:
-
-First, tutrial is using `python` language. Therefore, please install it on your computer (if not installed yet) 
-
-If you are using Anaconda, please create a new environment with python 3.12
-
 
 For the tutorial, you will need the following :
 
@@ -50,7 +43,7 @@ O.tionally:.
 You may consider the [Anaconda](https://www.anaconda.com/) distribution, but the python which comes with your OS should also be fine. 
 
 
-You can install everything (after installing anaconda) with the following commands):
+You can install all needed packages (after installing anaconda) with the following commands):
 
 ``` bash
 conda create -n wbvenv python=3.12
@@ -71,7 +64,16 @@ parallel = wb.Parallel(num_cpus=4)
 parallel.shutdown()
 ```
 
- 
+you should get smth like this:
+
+```
+pythtb : 1.8.0
+wannierberri : 1.3.0
+irrep : 2.1.2
+initializing ray with  {'num_cpus': 4}
+2025-05-20 16:08:43,842	INFO worker.py:1832 -- Started a local Ray instance. View the dashboard at http://127.0.0.1:8265
+```
+
 
 # If you have problems 
 
